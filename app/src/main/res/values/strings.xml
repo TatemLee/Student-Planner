@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StudentPlanner</string>
+    <string name="assessment">Assessment</string>
+    <string name="type">Type:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_prompt">#</string>
+    <string name="Performance">Performance</string>
+    <string name="Objective">Objective</string>
+    <string-array name="course_status">
+        <item>In-Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+        <item>Plan-to-Take</item>
+    </string-array>
+</resources>

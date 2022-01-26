@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentplanner">
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <application
+        android:label="Academic Planner"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_timer_green"
+        android:roundIcon="@mipmap/ic_timer_green_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name="Activities.AssessmentActivity"
+            android:exported="false"
+            android:parentActivityName="Activities.HomeActivity"/>
+        <activity
+            android:name="Activities.CourseActivity"
+            android:exported="false"
+            android:label="Course Planner"
+            android:parentActivityName="Activities.HomeActivity"/>
+        <activity
+            android:name="Activities.TermActivity"
+            android:exported="false"
+            android:parentActivityName="Activities.HomeActivity" />
+        <activity
+            android:name="Activities.HomeActivity"
+            android:label="Academic Planner"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="Controllers.AlertBroadcastAssessment"/>
+        <receiver android:name="Controllers.AlertBroadcastCourse"/>
+    </application>
+
+</manifest>

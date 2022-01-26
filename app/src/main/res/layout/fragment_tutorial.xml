@@ -1,0 +1,267 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.TutorialFragment">
+
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".25" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Button"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/imageView7" />
+
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a new Term, Course, or Assessment"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:maxEms="12"
+        android:minLines="2"
+        app:layout_constraintTop_toBottomOf="@id/title1"
+        app:layout_constraintStart_toEndOf="@id/guideline"/>
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Button"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/imageView8" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Detailed View of a Term, Course, or Assessment"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:maxEms="12"
+        android:minLines="2"
+        app:layout_constraintTop_toBottomOf="@id/title2"
+        app:layout_constraintStart_toEndOf="@id/guideline"/>
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Button"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/imageView9" />
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interact with Courses"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:maxEms="12"
+        android:minLines="2"
+        app:layout_constraintTop_toBottomOf="@id/title3"
+        app:layout_constraintStart_toEndOf="@id/guideline"/>
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assessment Button"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/imageView10" />
+
+    <TextView
+        android:id="@+id/description4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interact with Assessments"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:maxEms="12"
+        android:minLines="2"
+        app:layout_constraintTop_toBottomOf="@id/title4"
+        app:layout_constraintStart_toEndOf="@id/guideline"/>
+
+    <TextView
+        android:id="@+id/title5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Notes Button"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/imageView11" />
+
+    <TextView
+        android:id="@+id/description5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Course Notes"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:maxEms="12"
+        android:minLines="2"
+        app:layout_constraintTop_toBottomOf="@id/title5"
+        app:layout_constraintStart_toEndOf="@id/guideline"/>
+
+    <TextView
+        android:id="@+id/title6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Alerts Button"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/imageView12" />
+
+    <TextView
+        android:id="@+id/description6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Alerts for Course and Assesment Start/End Dates"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:maxEms="12"
+        android:minLines="2"
+        app:layout_constraintTop_toBottomOf="@id/title6"
+        app:layout_constraintStart_toEndOf="@id/guideline"/>
+
+    <TextView
+        android:id="@+id/title7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Button"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/imageView13" />
+
+    <TextView
+        android:id="@+id/description7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete All Selected Terms, Courses, or Assessments"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:maxEms="12"
+        android:minLines="2"
+        app:layout_constraintTop_toBottomOf="@id/title7"
+        app:layout_constraintStart_toEndOf="@id/guideline"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_image_foreground"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guideline"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_info_legend_image"
+        app:layout_constraintTop_toBottomOf="@id/imageView7"
+        app:layout_constraintEnd_toStartOf="@id/guideline"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_cardview_course"
+        app:layout_constraintTop_toBottomOf="@id/imageView8"
+        app:layout_constraintEnd_toStartOf="@id/guideline"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_timer_icon"
+        app:layout_constraintTop_toBottomOf="@id/imageView9"
+        app:layout_constraintEnd_toStartOf="@id/guideline"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share_legend_image"
+        app:layout_constraintTop_toBottomOf="@id/imageView10"
+        app:layout_constraintEnd_toStartOf="@id/guideline"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_alert_legend_image"
+        app:layout_constraintTop_toBottomOf="@id/imageView11"
+        app:layout_constraintEnd_toStartOf="@id/guideline"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete_legend_image"
+        app:layout_constraintTop_toBottomOf="@id/imageView12"
+        app:layout_constraintEnd_toStartOf="@id/guideline"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

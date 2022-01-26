@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_icon"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_term"
+        android:icon="@drawable/ic_term_icon"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Terms" />
+
+    <item
+        android:id="@+id/nav_course"
+        android:icon="@drawable/ic_course_icon"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Courses" />
+
+    <item
+        android:id="@+id/nav_assessments"
+        android:icon="@drawable/ic_assessment_icon"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Assessments" />
+</menu>
